@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Git commands</title>
+  </head>
+  <body>
+    <!-- TITLE -->
+    <header>
+      <h1>My Fav Git Command</h1>
+    </header>
+    <section>
+      <article>
+            <p>
+             Using git can sometimes be frustrating and fun! here is my go to git
+             command in which i find very intriguing and i find myself using it
+             alot <b> Git Branch </b> . I know very basic yea! ... Well, it is my
+             favorite!
+            </p>
+            <p>
+             A GitHub branch is used to work with different versions of a
+             repository at the same time. There is the default branch, also known
+             as the master branch while creating a repository, and other branches
+             for development.New Branches are for bug fixes and feature work
+             separate from the master branch. When changes are ready, they can be
+             merged into the master branch. If you make changes to the master
+             branch while working on a new branch, these updates can be pulled in.
+            </p>
+            <p>
+             One would ask, How can you create a branch? When do you use git branch? How do you use it? Well ..
+             In other to create a branch, we need type git branch in the terminal. so as to see a list of all your branches.
+             there would be a single branch called <em>master</em>.
+             This is the default branch for all Git repositories. <br>
+             Usage: <b> git branch </b><br>
+
+             <img src="branch.png" alt="html file">
+            </p>
+            <p>
+             To create a new branch we use the <em>git checkout</em> command with the -b flag(where '-' is enforce and 'b' is branch) and then pass in a name of a branch. <br>
+             Usage: <strong>git checkout -b NAME_OF_BRANCH</strong><br>
+             <img src="create new branch.png" alt=" html file">
+            </p>
+            <p>
+             Prehaps, we want to move to another branch that has been created before, we use the git checkout command and then state the name of a branch. <br>
+             Usage: git <b>checkout NAME_OF_BRANCH</b> <br>
+             <img src="checkout.PNG" alt="html doc">   
+            </p>
+            <div>
+                <p>
+                    To delete a branch, we leave that branch and then run git branch -D (where D is delete) <br>
+                    Usage:<b>git branch -D NAME_OF_BRANCH</b> <br>
+                    <img src="delete.PNG" alt="html doc">
+                </p>
+                <p>
+                    To see all of the branches we created, we can type <em>git branch -a</em>.(where 'a' is all).
+                    The -a flag will include remote branches (branches on GitHub or other remote locations).  <br>
+                    Usage: <b>git branch -a</b> <br>
+                    <img src="git all.PNG" alt="">
+                </p>
+            </div>
+        </article>
+    </section>
+    <hr>
+    <footer>
+        <label> Want to stay informed? Put your info here! </label> <br>
+        <label for="Email">Email</label>
+        <input type="email" name="Email" id="Email">
+        <input type="submit" value="Join Our Mailing List!">
+    </footer>
+  </body>
+</html>
